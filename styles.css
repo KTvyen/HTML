@@ -11,10 +11,10 @@ body {
 .header {
   text-align: center;
   text-transform: uppercase;
-  padding: 32px;
-  background-color: #0a0a23;
+  padding: 42px;
+  background-color: #1d788c;
   color: #fff;
-  border-bottom: 4px solid #fdb347;
+  border-bottom: 8px solid #abe1ee;
 }
 
 .gallery {
@@ -23,21 +23,21 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 16px;
-  max-width: 1400px;
+  gap: 30px;
+  max-width: 2800px;
   margin: 0 auto;
-  padding: 20px 10px;
+  padding: 40px 20px;
 }
 
 .gallery img {
   width: 100%;
-  max-width: 350px;
-  height: 300px;
+  max-width: 500px;
+  height: 450px;
   object-fit: cover;
   border-radius: 10px;
 }
 
 .gallery::after {
   content: "";
-  width: 350px;
+  width: 450px;
 }
